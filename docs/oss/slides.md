@@ -377,8 +377,8 @@ SPEAKER NOTE: The Kubernetes N-2 policy is worth dwelling on — it's the cleare
 
 &nbsp;
 
-📄 Reference doc: `docs/oss-release-strategy.md`
-📊 Diagrams: `docs/diagrams.md`
+📄 Reference doc: `docs/oss/oss-release-strategy.md`
+📊 Diagrams: `docs/oss/diagrams.md`
 🔗 Support dates: https://spring.io/projects/spring-framework#support
 
 <!--
