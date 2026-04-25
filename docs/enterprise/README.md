@@ -16,6 +16,7 @@ Reference documentation for feature-driven enterprise teams managing branching s
 | [`diagrams.md`](diagrams.md) | Mermaid diagrams — branch structures, feature flag lifecycle, flag taxonomy, side-by-side scenario comparison, migration path |
 | [`slides.md`](slides.md) | Marp Markdown slide deck — 12 slides for a 20-30 min team presentation |
 | [`version-and-release-notes.md`](version-and-release-notes.md) | Version bump timing and location (Git Flow vs TBD), release notes authoring, tooling patterns: conventional commits, git-cliff, release-please, semantic-release |
+| [`version-and-release-notes-slides.md`](version-and-release-notes-slides.md) | Marp slide deck — 13 slides covering version bump timing, changelog authoring, tooling selection, and branch protection constraints |
 
 ## Topics Covered
 
