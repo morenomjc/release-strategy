@@ -14,6 +14,7 @@ Reference documentation for feature-driven enterprise teams managing branching s
 |------|-------------|
 | [`release-strategy.md`](release-strategy.md) | Comprehensive reference — Git Flow vs. trunk-based development, feature flags, parallel feature management, migration guide, decision guide |
 | [`diagrams.md`](diagrams.md) | Mermaid diagrams — branch structures, feature flag lifecycle, flag taxonomy, side-by-side scenario comparison, migration path |
+| [`slides.md`](slides.md) | Marp Markdown slide deck — 12 slides for a 20-30 min team presentation |
 
 ## Topics Covered
 

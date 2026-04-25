@@ -26,6 +26,7 @@ For feature-driven application teams, especially those on Git Flow and heading t
 |------|-------------|
 | [`docs/enterprise/release-strategy.md`](docs/enterprise/release-strategy.md) | Comprehensive reference — Git Flow vs. trunk-based development, feature flags, parallel features, migration guide |
 | [`docs/enterprise/diagrams.md`](docs/enterprise/diagrams.md) | Mermaid diagrams — branch structures, flag lifecycle, flag taxonomy, scenario comparison, migration path |
+| [`docs/enterprise/slides.md`](docs/enterprise/slides.md) | Marp Markdown slide deck — 12 slides for a 20-30 min team presentation |
 
 ## Quick Reference
 
@@ -50,6 +51,9 @@ marp docs/oss/slides.md --html
 
 # Live preview
 marp docs/oss/slides.md --preview
+
+# Enterprise deck
+marp docs/enterprise/slides.md --pdf
 ```
 
 ## Topics Covered
