@@ -39,25 +39,27 @@ flowchart LR
 How active branches relate and how fixes propagate forward.
 
 ```mermaid
-gitGraph LR:
-   branch "6.1.x"
-   checkout "6.1.x"
-   commit id: "6.1.22-SNAPSHOT (winding down)"
+gitGraph
+   commit id: "initial"
 
-   branch "6.2.x"
-   checkout "6.2.x"
+   branch 6-1-x
+   checkout 6-1-x
+   commit id: "6.1.22-SNAPSHOT"
+
+   branch 6-2-x
+   checkout 6-2-x
    commit id: "6.2.19-SNAPSHOT"
    commit id: "Fix: resource loader"
 
-   branch "7.0.x"
-   checkout "7.0.x"
+   branch 7-0-x
+   checkout 7-0-x
    commit id: "7.0.8-SNAPSHOT"
-   merge "6.2.x" id: "Merge 6.2.x → 7.0.x"
+   merge 6-2-x id: "Merge 6.2.x into 7.0.x"
 
-   branch "main"
-   checkout "main"
+   branch main
+   checkout main
    commit id: "7.1.0-SNAPSHOT"
-   merge "7.0.x" id: "Merge 7.0.x → main"
+   merge 7-0-x id: "Merge 7.0.x into main"
 ```
 
 > **Reading this diagram:** Fixes commit on `6.2.x`, merge forward into `7.0.x`, then merge into `main`. The same fix appears in all three branches. `main` is NOT current stable — it is the next unreleased generation.
