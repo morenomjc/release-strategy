@@ -10,6 +10,8 @@
 
 - [x] **Phase 1: Core Reference Doc** — Write the comprehensive Markdown reference doc covering branching strategy, release terminology, multi-train management, OSS comparisons, and support tiers
 - [x] **Phase 2: Presentation Outline** — Write the slide-by-slide presentation outline for team delivery
+- [x] **Phase 3: Enterprise Release Strategy** — Document git-flow vs trunk-based development for feature-driven enterprise teams, covering feature flags, parallel features, and stable branch identification
+- [ ] **Phase 3.1: Reorganize Docs and Enterprise Slides** (INSERTED) — Move OSS docs into docs/oss/ subdirectory; create enterprise slide deck (Marp) parallel to the OSS slides
 
 ---
 
@@ -37,6 +39,20 @@
 **Plans**: `.planning/phases/02-presentation-outline/02-PLAN.md`
 **UI hint**: no
 
+### Phase 3.1: Reorganize Docs and Enterprise Slides
+**Goal**: docs/ has a clean oss/ and enterprise/ parallel structure; enterprise teams have a Marp slide deck parallel to the OSS deck
+**Depends on**: Phase 3
+**Requirements**: (structural reorganization — no requirement IDs)
+**Success Criteria** (what must be TRUE):
+  1. All OSS docs live under docs/oss/ with no files remaining at the docs/ root
+  2. README.md and enterprise/README.md reference the new docs/oss/ paths
+  3. docs/enterprise/slides.md exists as a valid 12+ slide Marp deck covering Git Flow, TBD, feature flags, migration path, and decision guide
+  4. Both README files list the enterprise slide deck
+**Plans**: 2 plans
+Plans:
+- [x] 03.1-01-PLAN.md — Move OSS docs to docs/oss/ and update links in README.md and enterprise/README.md
+- [ ] 03.1-02-PLAN.md — Create docs/enterprise/slides.md (Marp enterprise deck) and register in README files
+
 ---
 
 ## Progress Table
@@ -45,6 +61,8 @@
 |-------|----------------|--------|-----------|
 | 1. Core Reference Doc | 1/1 | Complete | 2026-04-25 |
 | 2. Presentation Outline | 1/1 | Complete | 2026-04-25 |
+| 3. Enterprise Release Strategy | 1/1 | Complete | 2026-04-25 |
+| 3.1. Reorganize Docs and Enterprise Slides | 1/2 | In Progress | — |
 
 ---
 
