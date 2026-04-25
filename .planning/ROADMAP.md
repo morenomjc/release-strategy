@@ -12,6 +12,7 @@
 - [x] **Phase 2: Presentation Outline** — Write the slide-by-slide presentation outline for team delivery
 - [x] **Phase 3: Enterprise Release Strategy** — Document git-flow vs trunk-based development for feature-driven enterprise teams, covering feature flags, parallel features, and stable branch identification
 - [x] **Phase 3.1: Reorganize Docs and Enterprise Slides** (INSERTED) — Move OSS docs into docs/oss/ subdirectory; create enterprise slide deck (Marp) parallel to the OSS slides
+- [x] **Phase 4: Enterprise Version and Release Notes** — Document when and where version increments and release notes are committed in Git Flow and trunk-based development, covering tooling patterns (conventional commits, changelog generation, semantic versioning automation)
 
 ---
 
@@ -53,6 +54,19 @@ Plans:
 - [x] 03.1-01-PLAN.md — Move OSS docs to docs/oss/ and update links in README.md and enterprise/README.md
 - [x] 03.1-02-PLAN.md — Create docs/enterprise/slides.md (Marp enterprise deck) and register in README files
 
+### Phase 4: Enterprise Version and Release Notes
+**Goal**: A developer can open this doc and understand exactly when the version bump commit happens and where release notes are authored — across both Git Flow and trunk-based development — with concrete tooling patterns
+**Depends on**: Phase 3
+**Requirements**: (no requirement IDs — enterprise extension)
+**Success Criteria** (what must be TRUE):
+  1. The doc explains where and when the version bump commit is made in Git Flow (release branch cut) and TBD (tag-time or automated)
+  2. The doc explains where release notes/changelog are authored and committed in each model
+  3. Tooling patterns are covered: conventional commits, `git-cliff`/`release-please`/semantic-release
+  4. The doc is added to `docs/enterprise/` and referenced from the enterprise README
+**Plans**: 1 plan
+Plans:
+- [x] 04-01-PLAN.md — Create version-and-release-notes.md and update enterprise README
+
 ---
 
 ## Progress Table
@@ -63,6 +77,7 @@ Plans:
 | 2. Presentation Outline | 1/1 | Complete | 2026-04-25 |
 | 3. Enterprise Release Strategy | 1/1 | Complete | 2026-04-25 |
 | 3.1. Reorganize Docs and Enterprise Slides | 2/2 | Complete | 2026-04-25 |
+| 4. Enterprise Version and Release Notes | 1/1 | Complete | 2026-04-25 |
 
 ---
 
