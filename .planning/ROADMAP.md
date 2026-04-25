@@ -11,7 +11,7 @@
 - [x] **Phase 1: Core Reference Doc** — Write the comprehensive Markdown reference doc covering branching strategy, release terminology, multi-train management, OSS comparisons, and support tiers
 - [x] **Phase 2: Presentation Outline** — Write the slide-by-slide presentation outline for team delivery
 - [x] **Phase 3: Enterprise Release Strategy** — Document git-flow vs trunk-based development for feature-driven enterprise teams, covering feature flags, parallel features, and stable branch identification
-- [ ] **Phase 3.1: Reorganize Docs and Enterprise Slides** (INSERTED) — Move OSS docs into docs/oss/ subdirectory; create enterprise slide deck (Marp) parallel to the OSS slides
+- [x] **Phase 3.1: Reorganize Docs and Enterprise Slides** (INSERTED) — Move OSS docs into docs/oss/ subdirectory; create enterprise slide deck (Marp) parallel to the OSS slides
 
 ---
 
@@ -51,7 +51,7 @@
 **Plans**: 2 plans
 Plans:
 - [x] 03.1-01-PLAN.md — Move OSS docs to docs/oss/ and update links in README.md and enterprise/README.md
-- [ ] 03.1-02-PLAN.md — Create docs/enterprise/slides.md (Marp enterprise deck) and register in README files
+- [x] 03.1-02-PLAN.md — Create docs/enterprise/slides.md (Marp enterprise deck) and register in README files
 
 ---
 
@@ -62,7 +62,7 @@ Plans:
 | 1. Core Reference Doc | 1/1 | Complete | 2026-04-25 |
 | 2. Presentation Outline | 1/1 | Complete | 2026-04-25 |
 | 3. Enterprise Release Strategy | 1/1 | Complete | 2026-04-25 |
-| 3.1. Reorganize Docs and Enterprise Slides | 1/2 | In Progress | — |
+| 3.1. Reorganize Docs and Enterprise Slides | 2/2 | Complete | 2026-04-25 |
 
 ---
 
