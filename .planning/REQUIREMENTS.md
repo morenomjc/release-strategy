@@ -51,12 +51,22 @@
 - **EXT-01**: Cover Python ecosystem (PEP 440 versioning, PyPI pre-release conventions)
 - **EXT-02**: Cover Go module versioning and its major-version branching convention
 
+## v1 Enterprise Requirements
+
+### Enterprise Branching Models
+
+- [x] **ENT-01**: Compare Git Flow and trunk-based development side-by-side across: stable branch identity, parallel feature handling, release process, hotfix process, CI requirements
+- [x] **ENT-02**: Explain feature flags — Fowler's four types (release, ops, experiment, permission), lifecycle stages, and cleanup discipline
+- [x] **ENT-03**: Document how to run parallel features safely in both models
+- [x] **ENT-04**: Provide a migration path from Git Flow to trunk-based development with prerequisites per stage
+- [x] **ENT-05**: Produce `docs/enterprise/release-strategy.md` and `docs/enterprise/diagrams.md` as standalone enterprise reference docs
+
 ## Out of Scope
 
 | Feature | Reason |
 |---------|--------|
 | CI/CD pipeline setup | Focus is concepts, not tooling implementation |
-| Private/enterprise release strategies | OSS patterns only |
+| Private/enterprise release strategies (implementation) | Strategy concepts only, not implementation details |
 | Full SemVer spec explanation | Assume basic familiarity |
 | Spring Boot auto-configuration deep dive | Release strategy only, not internals |
 
