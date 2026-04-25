@@ -56,7 +56,6 @@ gitGraph
    commit id: "7.0.8-SNAPSHOT"
    merge v6-2-x id: "Merge 6.2.x into 7.0.x"
 
-   branch main
    checkout main
    commit id: "7.1.0-SNAPSHOT"
    merge v7-0-x id: "Merge 7.0.x into main"
